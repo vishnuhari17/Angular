@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chitkul Village - Mystic Trails India</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hero-section {
+            height: 100vh;
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                        url('https://plus.unsplash.com/premium_photo-1697729736968-dbaf069935c9');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .content-section {
+            padding: 100px 0;
+        }
+        .image-gallery img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .image-gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <!-- Copy your existing navbar here -->
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="container text-center" data-aos="fade-up">
+            <h1 class="display-1 fw-bold">Chitkul Village</h1>
+            <p class="lead">Himachal Pradesh's Last Village</p>
+        </div>
+    </div>
+
+    <!-- Content Sections -->
+    <div class="container content-section">
+        <div class="row align-items-center mb-5">
+            <div class="col-md-6" data-aos="fade-right">
+                <h2>About Chitkul</h2>
+                <p>Chitkul is the last inhabited village near the Indo-Tibetan border in Himachal Pradesh. It is known for its scenic beauty, wooden houses, and peaceful vibes. The Baspa River flows through the village, adding to its charm.</p>
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+                <img src="https://plus.unsplash.com/premium_photo-1697729736968-dbaf069935c9" class="img-fluid rounded">
+            </div>
+        </div>
+
+        <!-- Image Gallery -->
+        <h2 class="text-center mb-5" data-aos="fade-up">Gallery</h2>
+        <div class="row image-gallery">
+            <div class="col-md-4" data-aos="zoom-in">
+                <img src="https://source.unsplash.com/random/800x600?chitkul,village" alt="Chitkul 1">
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+                <img src="https://source.unsplash.com/random/800x600?mountains,river" alt="Chitkul 2">
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+                <img src="https://source.unsplash.com/random/800x600?wooden,houses" alt="Chitkul 3">
+            </div>
+        </div>
+
+        <!-- Activities Section -->
+        <div class="row mt-5">
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Trekking</h5>
+                        <p class="card-text">Explore the numerous hiking trails that wind through the village.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Photography</h5>
+                        <p class="card-text">Capture stunning landscapes and the unique wooden houses.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Cultural Insights</h5>
+                        <p class="card-text">Learn about the local culture and way of life.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>

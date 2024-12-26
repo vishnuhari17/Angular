@@ -1,0 +1,11 @@
+
+<div class="container-fluid p-5 m-0" id="state">
+    <h1 class="text-center mb-4">Hidden Treasures of India</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @for(state of api.getStates(); track state.id) {
+            <div class="col">
+                <app-card [state]="state"></app-card>
+              </div>
+
+        }
+    </div>

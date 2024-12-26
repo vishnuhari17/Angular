@@ -1,0 +1,15 @@
+<div class="container-fluid p-0 m-0 position-relative">
+    <div id="carouselExampleRide" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2000" data-bs-pause="false" data-bs-wrap="true">
+      <div class="carousel-inner">
+        @for(image of images; track image.id) {
+            <div class="carousel-item active">
+                <img src="{{image.image}}" class="d-block w-100" alt="...">
+              </div>
+        }
+        </div>
+      <div class="carousel-caption-fixed">
+        <h1 class="fw-bold">The Untold Stories of Hidden Gems</h1>
+        <p>India is a land of wonders, but beyond the crowded tourist spots lie mystical trails and hidden treasures waiting to be explored. From silent valleys to forgotten temples, let us guide you to India's unexplored marvels.</p>
+      </div>
+    </div>
+  </div>

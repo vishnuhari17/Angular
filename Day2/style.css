@@ -1,0 +1,21 @@
+
+.carousel-caption-fixed {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+}
+.carousel-item img {
+    height: 100vh;
+    object-fit: cover;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.897);
+}

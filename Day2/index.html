@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark p-2">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">
+          <img src="icon.png" alt="Logo" width="80" height="80" class="d-inline-block align-text-center">
+          Mystic Trails India
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav fw-bold">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#state">States</a>
+            <a class="nav-link" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid p-0 m-0 position-relative">
+      <div id="carouselExampleRide" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000" data-bs-pause="false" data-bs-wrap="true">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.unsplash.com/photo-1625401878457-a8fe61ccc6f8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1518131296958-df44106fd0ae?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1519955266818-0231b63402bc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <div class="carousel-caption-fixed">
+          <h1 class="fw-bold">The Untold Stories of Hidden Gems</h1>
+          <p>India is a land of wonders, but beyond the crowded tourist spots lie mystical trails and hidden treasures waiting to be explored. From silent valleys to forgotten temples, let us guide you to India's unexplored marvels.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid p-5" id="about">
+      <h1 class="text-center mb-4">About</h1>
+      <p class="text-center mb-4 p-5 m-5 fw-bold">At Mystic Trails India, we are passionate about unveiling India’s secrets. Our mission is to bring forth awe-inspiring places tucked away in serenity. Whether you're a nature lover, history buff, or cultural explorer, we curate experiences that leave an imprint on your heart.      </p>
+    </div>
+
+    <div class="container-fluid p-5 m-0" id="state">
+      <h1 class="text-center mb-4">Hidden Treasures of India</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1651409473378-fd27ad07069d?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Laitlum Canyons">
+            <div class="card-body">
+              <h5 class="card-title">Meghalaya - Laitlum Canyons</h5>
+              <p class="card-text">A breathtaking gorge with panoramic views and silent trails, perfect for serene getaways and treks.</p>
+              <a href="meghalaya.html" class="btn btn-primary">Explore Laitlum →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1548820524-7c4742f76035?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Lonar Crater Lake">
+            <div class="card-body">
+              <h5 class="card-title">Maharashtra - Lonar Crater Lake</h5>
+              <p class="card-text">A unique meteorite impact lake surrounded by lush greenery, ancient temples, and rich biodiversity.</p>
+              <a href="maharashtra.html" class="btn btn-primary">Explore Lonar →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://plus.unsplash.com/premium_photo-1699535657712-02fe404e916f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Kuldhara Village">
+            <div class="card-body">
+              <h5 class="card-title">Rajasthan - Kuldhara Village</h5>
+              <p class="card-text">Explore the mysterious, abandoned ghost village with stories of curses and rich architectural ruins.</p>
+              <a href="rajasthan.html" class="btn btn-primary">Explore Kuldhara →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1668437824006-1be44600774b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Ziro Valley">
+            <div class="card-body">
+              <h5 class="card-title">Arunachal Pradesh - Ziro Valley</h5>
+              <p class="card-text">A lush valley known for its rice fields, pine forests, Apatani tribal culture, and music festivals.</p>
+              <a href="arunachal.html" class="btn btn-primary">Explore Ziro →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1542202229-7d93c33f5d07?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Polo Forest">
+            <div class="card-body">
+              <h5 class="card-title">Gujarat - Polo Forest</h5>
+              <p class="card-text">Discover ancient temple ruins nestled within serene forests, perfect for trekking and photography.</p>
+              <a href="gujarat.html" class="btn btn-primary">Explore Polo →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://plus.unsplash.com/premium_photo-1697729736968-dbaf069935c9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Chitkul Village">
+            <div class="card-body">
+              <h5 class="card-title">Himachal Pradesh - Chitkul Village</h5>
+              <p class="card-text">The last village on the Indo-Tibetan border, offering scenic landscapes, wooden houses, and peaceful vibes.</p>
+              <a href="himachal.html" class="btn btn-primary">Explore Chitkul →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=2041&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Bhitarkanika Mangrove Forest">
+            <div class="card-body">
+              <h5 class="card-title">Odisha - Bhitarkanika Mangrove Forest</h5>
+              <p class="card-text">A natural paradise with crocodile spotting, exotic birds, and tranquil boat rides through mangroves.</p>
+              <a href="odisha.html" class="btn btn-primary">Explore Bhitarkanika →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="container p-5 m-0" id="contact">
+      <h1>Contact</h1>
+      <div class="mb-3 p-2">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
